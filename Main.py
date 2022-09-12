@@ -1,7 +1,6 @@
 from typing import List
 
 def insertionSort(array) -> List[int]:
-  # Write your code here
   for i in range(1, len(array)):
         k = array[i]
         j = i-1
